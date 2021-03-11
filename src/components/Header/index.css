@@ -1,0 +1,12 @@
+header {
+    padding: 10px;
+    background-color: #727272;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header > a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
