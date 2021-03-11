@@ -1,0 +1,37 @@
+.fixed-para-page section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-bottom: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.fixed-para-page section h1 {
+  font-size: 4.5rem;
+  margin: 0;
+  color: white;
+}
+
+.fixed-para-page section.one {
+  background-image: url(https://i.imgur.com/dS5GyJY.jpg);
+  height: 848px;
+}
+
+.fixed-para-page section.two {
+  background-image: url(https://i.imgur.com/P4RN4KR.jpg);
+  height: 891px;
+}
+/*# sourceMappingURL=index.css.map */
